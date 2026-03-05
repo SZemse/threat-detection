@@ -1,0 +1,9 @@
+login_failed(X) -> suspicious_ip(X)
+
+port_scan(X) -> reconnaissance(X)
+
+malware_activity(X) -> compromised_host(X)
+
+suspicious_ip(X) & reconnaissance(X) -> brute_force_attack(X)
+
+reconnaissance(X) & malware_activity(X) -> advanced_intrusion(X)
