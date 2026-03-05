@@ -1,4 +1,4 @@
-# Neurosymbolic Threat Detection System
+# Threat Detection System
 
 ## Overview
 
